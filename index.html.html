@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario web</title>
+</head>
+<body>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+<form method="post" action="" style="text-align: center;">
+    <h4>Formulario de registro</h4>
+
+    <label for="tipo_documento">Tipo de documento:</label><br>
+    <select name="tipo_documento" id="tipo_documento" required>
+        <option value="">Seleccione su tipo de documento</option>
+        <option value="CC">CC</option>
+        <option value="TI">TI</option>
+        <option value="RC">RC</option>
+        <option value="CE">CE</option>
+        <option value="Pasaporte">Pasaporte</option>
+    </select><br><br>
+
+    <label for="numero_documento">Número de documento:</label><br>
+    <input type="number" name="numero_documento" id="numero_documento" required><br><br>
+
+    <label for="nombres">Nombres:</label><br>
+    <input type="text" name="nombres" id="nombres" required><br><br>
+
+    <label for="apellidos">Apellidos:</label><br>
+    <input type="text" name="apellidos" id="apellidos" required><br><br>
+
+    <label for="direccion">Dirección:</label><br>
+    <input type="text" name="direccion" id="direccion" required><br><br>
+
+    <label for="telefono_fijo">Teléfono fijo:</label><br>
+    <input type="tel" name="telefono_fijo" id="telefono_fijo" required><br><br>
+
+    <label for="telefono_celular">Teléfono celular:</label><br>
+    <input type="tel" name="telefono_celular" id="telefono_celular" required><br><br>
+
+    <label for="correo">Correo:</label><br>
+    <input type="email" name="correo" id="correo" required><br><br>
+
+    <label for="contrasena">Contraseña:</label><br>
+    <input type="password" name="contrasena" id="contrasena" required><br><br>
+
+    <label for="fecha_inscripcion">Fecha:</label><br>
+    <input type="date" name="fecha_inscripcion" id="fecha_inscripcion" required><br><br>
+
+    <label for="hobbie">Hobbie:</label><br>
+    <input type="text" name="hobbie" id="hobbie" required><br><br>
+
+    <p>
+        <input type="checkbox" required> Acepto términos y condiciones
+    </p>
+
+    <input type="submit" value="Registrar">
+    <input type="reset" value="Limpiar">
+
+</form>
+
+</div>
+
+</body>
+</html>
